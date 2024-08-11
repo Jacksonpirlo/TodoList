@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 80.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5em;
+    max-width: 650px;
+    min-width: 320px;
+    width: 100%;
+}
+
+.todoApp {
+    background-color: rgb(129, 0, 180)!important;
+    padding: 1.5em;
+    border-radius: 10px;
+    max-width: 100%;
+    width:100%;
+    min-width: 320px;
+    margin-bottom: 2em;
+}
+
+h1 {
+    margin: 1em;
+    color: #fff;
+}
+
+.buscar {
+    margin-bottom: 30px;
+}
+
+.buscar form input {
+    padding: 5px;
+    background-color: #fff;
+    color: #111;
+}
+
+.buscar form button {
+    padding: 5px;
+    width: 30px;
+}
+
+.li-container .tareas li {
+    display: flex;
+    padding: 5px;
+    margin-bottom: 3em;
+    background-color: rgb(129, 0, 180);
+}
+
+.li-container .tareas li p {
+   margin: 5px;
+   color: #fff;
+}
+
+.li-container .tareas li {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.li-container .tareas li {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.li-container .tareas li button {
+    width: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+@media screen and (max-width: 660px) {
+
+    .todoApp {
+        border-radius: 0px;
+    }
+    .container {
+      margin-top: 0px;
+    }
+    
+}
+
+
+
